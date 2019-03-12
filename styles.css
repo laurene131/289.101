@@ -1,0 +1,27 @@
+.important {
+    font-size: 30px;
+    color: #123AB4;
+    font-style: italic;
+}
+
+#box1 {
+    background-color: green;
+    border: 10px solid pink; 
+    height: 100px;
+    width: 200px;
+    margin-left: 60px; 
+    padding-top: 100px;
+    
+}
+
+#box2 {
+    background-color: aqua;
+    margin-left: 100px;
+    border-top: 5px dashed blue;
+    height: 200px;
+    width: 50px;
+    margin-top: 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
