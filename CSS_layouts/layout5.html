@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title> Layout 5 </title>
+        <style>
+            div {
+                outline: 1px solid black;
+            }
+            #container {
+                width: 800 px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            #blue {
+                background-color: blue;
+                height: 200px;
+                grid-column: 1/5;
+            }
+            .red {
+                background-color: red;
+                height: 400px;
+                display: grid;
+                grid-template-columns: ;
+            }
+            
+            #green {
+                background-color: lime;
+                height: 200px;
+              grid-column: 1/5;
+            }
+        
+        </style>
+        
+    </head>
+    
+    <body>
+        <div id= "container">
+            <div id="blue">
+                <div class="yellow"></div>
+            </div>
+            <div class="red">
+                <div class="yellow1"></div>
+                <div class="yellow2"></div>
+            </div>
+            <div id="green"></div>
+        </div>
+    </body>
+
+</html>
