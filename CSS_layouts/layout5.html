@@ -11,39 +11,48 @@
             #container {
                 width: 800 px;
                 margin: auto;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                
             }
             #blue {
                 background-color: blue;
                 height: 200px;
-                grid-column: 1/5;
+                display: grid;
+                grid-template-columns: auto 25%;
             }
-            .red {
+            .logo {
+                background-color: yellow;
+                grid-column: 2/3;
+                margin: 20px;
+            }
+            #red {
+                display: grid;
                 background-color: red;
                 height: 400px;
-                display: grid;
-                grid-template-columns: ;
+                grid-template-columns: 30% 70%;
             }
-            
+            #rrc {
+                grid-template-columns: 30% 70%;
+                padding: 20px;
+            }
             #green {
                 background-color: lime;
                 height: 200px;
-              grid-column: 1/5;
             }
         
-        </style>
-        
+        </style>   
     </head>
     
     <body>
         <div id= "container">
             <div id="blue">
-                <div class="yellow"></div>
+                <div class="logo"></div>
             </div>
-            <div class="red">
-                <div class="yellow1"></div>
-                <div class="yellow2"></div>
+            <div id="red">
+                <div id="rlc"></div>
+                <div id="rrc">
+                    <div id="yellow1"></div>
+                    <div id="yellow2"></div>
+                </div>
             </div>
             <div id="green"></div>
         </div>
